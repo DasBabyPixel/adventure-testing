@@ -1,0 +1,4 @@
+name: AdventureTesting
+version: "1.0"
+main: de.dasbabypixel.adventuretesting.AdventureTesting
+api-version: 1.20.6
