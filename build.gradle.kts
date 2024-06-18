@@ -31,7 +31,7 @@ java {
 tasks {
     shadowJar {
         destinationDirectory = temporaryDir
-        exclude("com.google.errorprone")
+        relocate("com.google.errorprone", "de.dasbabypixel.adventuretesting.libs.errorprone")
         relocate("com.google.gson", "de.dasbabypixel.adventuretesting.libs.gson")
     }
     jar {
